@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" type="text/css" href="./css/style.css"/>
+
+    <title>Lista de Exercicios 20 / 05 / 2024</title>
+</head>
+<body>
+    <section class="inicio"> 
+   
+    <p class="titulo">EXERCICIO 1</p>
+    <p class="questao">1 - Faça uma página que peça ao usuário a cotação do dólar atual. Calcule quanto ficaria
+        esse valor se subisse 1%, 2%, 5% e 10% e exiba ao usuário os valores calculados.</p><br>
+    <label>Qual valor deseja saber a cotação: <br><input type="number" id="ex11input"> <button id="botao1">VERIFICAR</button></label>
+    <p class="resultado">RESULTADO:</p><p class="resultado1" id="ex11resultado"></p>
+    <hr>
+
+    <p class="titulo">EXERCICIO 2</p>
+    <p class="questao">2 - Faça uma página que peça ao usuário quantas pessoas irão comer omelete. Depois,
+        exiba ao usuário quantos ovos e quantas gramas de queijo serão necessários para fazer
+        a comida. Considere 2 ovos e 50 gramas de queijo por pessoa.</p><br>
+    <label>Quantas pessoas vao comer Omelete:<br><input type="number" id="ex21input"> <button id="botao2">VERIFICAR</button></label>
+    <p class="resultado">RESULTADO:</p><p class="resultado1" id="ex21resultado"></p>
+    <hr>
+
+    <p class="titulo">EXERCICIO 3</p>
+    <p class="questao">3 - Faça uma página que peça ao usuário dois números inteiros. Depois exiba o resultado
+        das principais operações matemáticas, uma por linha. Principais operações: soma,
+        subtração, multiplicação, divisão.</p><br>
+
+    <label>Digite o Primeiro numero inteiro: <br><input type="number" id="ex31input"></label><br>
+    <label>Digite o Segundo numero inteiro:<br><input type="number" id="ex32input"> <button id="botao3">VERIFICAR</button></label>
+    <p class="resultado">RESULTADO:</p><p class="resultado1" id="ex31resultado"></p>
+    <hr>
+
+    <p class="titulo">EXERCICIO 4</p>
+    <p class="questao">4 - Faça uma página que peça ao usuário 4 sabores de pizza. Depois peça quantos
+        refrigerantes ele quer. Ao final, exiba ao usuário quais foram os sabores escolhidos e o
+        valor total a pagar. Valores: cada sabor: R$ 12,00; 1 Refrigerante R$ 7,00.</p><br>
+
+    <label>Sabor 1:<br><input type="text" id="ex41input"></label><br>
+    <label>Sabor 2:<br><input type="text" id="ex42input"></label><br>
+    <label>Sabor 3:<br><input type="text" id="ex43input"></label><br>
+    <label>Sabor 4:<br><input type="text" id="ex44input"></label><br>
+    <label>quanntos refrigerante voce quer:<br><input type="number" id="ex45input"> <button id="botao4">VERIFICAR</button></label>
+    <p class="resultado">RESULTADO:</p><p class="resultado1" id="ex41resultado"></p>
+    <hr>
+
+    <p class="titulo">EXERCICIO 5</p>
+    <p class="questao">5 - Faça uma página que peça ao usuário o nome e o ano de nascimento de 3 pessoas.
+        Verifique quem é a mais velha, quem é a segunda mais velha, e assim por diante. Exiba
+        a seguinte mensagem ao usuário: “Pessoa mais velha: ” + nome + ” - idade + “ anos”,
+        “Segunda pessoa...”. Informe uma pessoa por linha.</p><br>
+
+    <label>Nome 1° pessoa:<br><input type="text" id="ex51nome"></label><br>
+    <label>Idade 1° pessoa:<br><input type="number" id="ex51idade"></label><br>
+    <label>Nome 2° pessoa:<br><input type="text" id="ex52nome"></label><br>
+    <label>Idade 2° pessoa:<br><input type="number" id="ex52idade"></label><br>
+    <label>Nome 3° pessoa:<br><input type="text" id="ex53nome"></label><br>
+    <label>Idade 3° pessoa<br><input type="number" id="ex53idade"><button id="botao5">VERIFICAR</button></label>
+    <p class="resultado">RESULTADO:</p><p class="resultado1" id="ex51resultado"></p>
+    <hr>
+
+    <p class="titulo">EXERCICIO 6</p>
+    <p class="questao">6 - Faça uma página que peça ao usuário qual foi sua nota final no ano letivo. Se a nota
+        for menor que 6 e maior que 4, exiba “precisa fazer prova substitutiva”. Se for maior
+        que 6 exiba “aprovado”. Senão, exiba “reprovado”.</p><br>
+
+    <label>Qual foi sua nota Média:<br><input type="number" id="ex61input"> <button id="botao6">VERIFICAR</button></label>
+    <p class="resultado">RESULTADO:</p><p class="resultado1" id="ex61resultado"></p>
+    <hr>
+
+    <p class="titulo">EXERCICIO 7</p>
+    <p class="questao">7 - Faça uma página que peça dois números inteiros ao usuário. Depois exiba se o primeiro
+        é maior, menor ou igual ao segundo.</p><br>
+
+    <label>Digite 1° Numero Inteiro:<br><input type="number" id="ex71input"></label><br>
+    <label>Digite 2° Numero Inteiro:<br><input type="number" id="ex72input"> <button id="botao7">VERIFICAR</button></label>
+    <p class="resultado">RESULTADO:</p><p class="resultado1" id="ex71resultado"></p>
+    <hr>
+
+    <p class="titulo">EXERCICIO 8</p>
+    <p class="questao">8 - Faça uma página que peça um número ao usuário. Exiba se esse número é Par ou
+        Ímpar (use o mod -> %).</p><br>
+
+    <label>Informe um Numero:<br><input type="number" id="ex81input"> <button id="botao8">VERIFICAR</button></label>
+    <p class="resultado">RESULTADO:</p><p class="resultado1" id="ex81resultado"></p>
+    <hr>
+
+    <p class="titulo">EXERCICIO 9</p>
+    <p class="questao">9 - Faça uma página que ajude o professor de uma turma de alunos a saber quantas
+        pessoas deverão compor cada turma. O algoritmo deverá pedir ao usuário quantos
+        alunos tem a sala e quantas turmas se deseja dividir. Depois, apresentar a quantidade
+        de pessoas por turma e quantas pessoas ficarão “sem turma”.</p><br>
+
+    <label>Digite quantas Turmas:<br><input type="number" id="ex91input"> </label><br>
+    <label>Digite quantos Alunos:<br><input type="number" id="ex92input"> <button id="botao9">VERIFICAR</button></label>
+    <p class="resultado">RESULTADO:</p><p class="resultado1" id="ex91resultado"></p>
+    <hr>
+
+    <p class="titulo">EXERCICIO 10</p>
+    <p class="questao">10 - Faça uma página que peça ao usuário o valor vendido, a meta e a meta mínima do
+        mês.<br><br>
+        Faça os cálculos e exiba:<br>
+        • Se atingiu a meta ou se atingiu a meta mínima ou nenhuma delas;<br>
+        • Qual o percentual de atingimento da meta (valor vendido / meta);<br>
+        • Qual o percentual de atingimento da meta mínima (valor vendido/meta mínima).</p><br>
+
+    <label>Informe o Valor Vendido:<br><input type="number" id="ex101input"></label><br>
+    <label>Informe o valor da Meta:<br><input type="number" id="ex102input"></label><br>
+    <label>Informe o Valor da meta Minima:<br><input type="number" id="ex103input"> <button id="botao10">VERIFICAR</button></label>
+    <p class="resultado">RESULTADO:</p><p class="resultado1" id="ex101resultado"></p>
+    <hr>
+
+    
+    
+    
+    </section>
+<script src="./scripts/script.js">
+
+</script>
+</body>
+</html>
